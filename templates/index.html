@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Nena Birthday🎂🥳</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <link rel="icon" type="image/png" href="/static/nena.png">
+</head>
+<body>
+  <h1>Buktikan Kalau Kamu Memang Nena 😠!</h1>
+  <video id="video" autoplay></video>
+  <br/>
+  <button onclick="captureAndSend()">Authenticate</button>
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
